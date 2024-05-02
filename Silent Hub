@@ -18890,4 +18890,22 @@ end)
 })
 
 
+
+GamesTab:AddButton({
+	Name = "a dusty trip",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/dusty/main/trip"))()
+  	end    
+})
+
+
+GamesTab:AddButton({
+	Name = "Blade Ball",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() 
+  	end    
+})
+
+
+
 OrionLib:Init()
