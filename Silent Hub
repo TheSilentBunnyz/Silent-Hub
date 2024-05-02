@@ -18661,13 +18661,6 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
-	Name = "Build A Boat For Treasure",
-	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/babft"))()
-  	end    
-})
-
 
 
 SettingsTab:AddButton({
