@@ -18678,7 +18678,7 @@ SettingsTab:AddButton({
 })
 
 
-Games:AddButton({
+GamesTab:AddButton({
 	Name = "Jailbreak",
 	Callback = function()
         local ScreenGui = Instance.new("ScreenGui")
