@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Silent Hub | Working on my own scripts for new hub", HidePremium = false, SaveConfig = false, ConfigFolder = "Silent Hub"})
+local Window = OrionLib:MakeWindow({Name = "Silent Hub | i need help", HidePremium = false, SaveConfig = false, ConfigFolder = "Silent Hub"})
 OrionLib:MakeNotification({
 	Name = "Silent Hub ",
 	Content = "Thank you for using my script!",
