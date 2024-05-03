@@ -14375,6 +14375,15 @@ MainTab:AddButton({
 })
 
 
+
+MainTab:AddButton({
+	Name = "Fling All",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+  	end    
+})
+
+
 GamesTab:AddButton({
 	Name = "Murder Mystery 2",
 	Callback = function()
